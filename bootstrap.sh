@@ -48,3 +48,6 @@ source $repo/core/system.sh
 
 # setup Github account
 #source $repo/core/github.sh
+
+echo "Cleaning up"
+rm -rf ubuntu-bootstrap

@@ -12,8 +12,7 @@ ln -s $HOME/.jc/src/conf/.vim $HOME/.vim
 ln -s $HOME/.jc/src/conf/.vimrc $HOME/.vimrc
 echo "sylink bash"
 rm $HOME/.bash_profile
-rm -rf $HOME/.bashrc
-rm -rf $HOME/.bash_profile
+rm $HOME/.bashrc
 ln -s $HOME/.jc/src/conf/.bash_profile $HOME/.bash_profile
 ln -s $HOME/.jc/src/conf/.bashrc $HOME/.bashrc
 echo "sylink tmux"
