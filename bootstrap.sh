@@ -30,6 +30,7 @@ repo=`pwd`
 
 # install system packages and settings
 source $repo/core/system.sh
+source $repo/core/conf.sh
 
 # install oh-my-zsh and dotfile
 #source $repo/core/omz.sh
