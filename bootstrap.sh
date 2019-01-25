@@ -51,4 +51,4 @@ source $repo/core/conf.sh
 #source $repo/core/github.sh
 
 echo "Cleaning up"
-rm -rf ubuntu-bootstrap
+rm -rf $repo/ubuntu-bootstrap
